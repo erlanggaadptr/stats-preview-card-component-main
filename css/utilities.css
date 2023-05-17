@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+  --main-bg-col: hsl(233, 47%, 7%);
+  --card-bg-col: hsl(244, 38%, 16%);
+  --accent-col: hsl(277, 64%, 61%);
+  --main-h-stats-col: hsl(0, 0%, 100%);
+  --main-p-col: hsla(0, 0%, 100%, 0.75);
+  --main-stat-h-col: hsla(0, 0%, 100%, 0.6);
+
+  /* Font Size: 15px */
+  --body-font-size: 0.9375rem;
+
+  /* Font Family */
+  --primary-font: 'Inter', sans-serif;
+  --secondary-font: 'Lexend Deca', sans-serif;
+
+  /* Font Weight */
+  --regular-weight: 400;
+  --bold-weight: 700;
+}
