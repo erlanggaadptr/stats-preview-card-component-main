@@ -18,3 +18,17 @@
   --regular-weight: 400;
   --bold-weight: 700;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-highlight {
+  color: var(--accent-col);
+}
