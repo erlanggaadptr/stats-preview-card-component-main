@@ -1,0 +1,39 @@
+.card {
+  height: 50rem;
+  flex-direction: column-reverse;
+}
+
+.card .card-txt, 
+.card .card-img {
+  width: 100%;
+}
+
+.card .card-txt {
+  height: 70%;
+  padding: 2.5rem 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.card .card-txt #desc {
+  height: 50%;
+  display: block;
+}
+
+.card .card-txt #desc h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card .card-txt #stats {
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .card-img {
+  height: 30%;
+  overflow: hidden;
+}
